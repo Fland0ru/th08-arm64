@@ -1,6 +1,10 @@
 #pragma once
 
+#ifdef __CHAR_UNSIGNED__
+typedef signed char i8;
+#else
 typedef char i8;
+#endif
 typedef unsigned char u8;
 typedef short i16;
 typedef unsigned short u16;
