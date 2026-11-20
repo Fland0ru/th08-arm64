@@ -15,11 +15,12 @@ Active development and CI snapshots remain on
 | Architecture | Build verification | Runtime verification |
 | --- | --- | --- |
 | x86_64 | ELF64 little-endian PIE; native globals; no fixed-address TH08 symbols | All 108 replay recordings and 12,311,460 calculations match retail on 25 fields; selected retail frame comparisons, a complete Lunatic run, and Stage 4A/6B Practice runs also pass |
-| AArch64 | Cross-built ELF64 little-endian PIE with only AArch64 libraries | QEMU user-mode reaches DAT/version/logo/loading initialization; a real AArch64 desktop gameplay run remains required |
+| AArch64 | Cross-built ELF64 little-endian PIE with only AArch64 libraries | Pi 5 title and gameplay checked by the owner with no bugs reported; see [the ARM64 Pi 5 notes](PORTABLE_AARCH64_PI5.md) |
 
 Native x86_64 gameplay and replay audits have run under WSLg and Xvfb/Mesa.
-AArch64 has cross-build, packaging, and QEMU startup evidence; gameplay on real
-AArch64 hardware remains the next gate.
+AArch64 has cross-build, packaging, QEMU startup, and owner-tested Pi 5 gameplay
+evidence. The Pi 5 package and its scope are described in
+the [ARM64 Pi 5 notes](PORTABLE_AARCH64_PI5.md).
 The [replay validation results](REPLAY_RESULTS.md) record the complete native,
 Linux x86_64, and Linux i386 gates and their reproduction methods.
 

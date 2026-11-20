@@ -50,7 +50,9 @@ that an arbitrary newly built product passed the full corpus.
 Remaining work is the measured title/boundary sampling residual in
 [PORTABLE_LASER_VISUALS.md](PORTABLE_LASER_VISUALS.md#remaining-sampling-and-title-error),
 the unconfirmed Stage 5 color observations, native
-[RT-007](RUNTIME_ISSUES.md#rt-007), AArch64 hardware gameplay and audio.
+[RT-007](RUNTIME_ISSUES.md#rt-007), broader AArch64 validation and audio.
+The signed-byte defect found in the Pi 5 Stage 5 demo is fixed; see
+[PORTABLE_AARCH64_PI5.md](PORTABLE_AARCH64_PI5.md).
 ANM opcodes 25, 31 and 88 keep neutral names until all consumers support a
 shared-layout interpretation. Web work lives in the separate `th08-web` repo.
 

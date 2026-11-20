@@ -30,6 +30,9 @@ paths; whole-executable identity is still in progress.
 > active ELF64 source lives on
 > [`port/portable-64bit`](https://github.com/N0zoM1z0/th08/tree/port/portable-64bit).
 > Windows and macOS ports remain in progress.
+> **Pi 5:** the [`port/arm64-pi5`](https://github.com/Fland0ru/th08-arm64) branch
+> adds native ARM64 Linux validation and a ready-to-run Pi 5 package in
+> [Releases](https://github.com/Fland0ru/th08-arm64/releases). No game data is included.
 
 ## TL;DR
 
